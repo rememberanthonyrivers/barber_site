@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JBA | juniorberroart</title>
+</head>
+
+<body>
+    <!-- Sidebar with image -->
+    <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width: 40%">
+        <div class="bgimg"></div>
+    </nav>
+
+    <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge"
+        style="display: none; padding-top: 150px; right: 0; z-index: 2" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright"
+            style="padding: 0 12px">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Portfolio</a>
+            <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black"
+                onclick="closeNav()">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="w3-main w3-padding-large" style="margin-left: 40%">
+        <!-- Menu icon to open sidebar -->
+        <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black"
+            style="width: auto; right: 0" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+        <!-- Header -->
+        <header class="w3-container w3-center" style="padding: 128px 16px" id="home">
+            <h1 class="w3-jumbo"><b>juniorberroart</b></h1>
+            <p>Tattoo Specialist and Hair Stylist</p>
+            <img src="assets/portrait/ac_selfie.png" class="w3-image w3-hide-large w3-hide-small w3-round"
+                style="display: block; width: 60%; margin: auto" />
+            <img src="assets/portrait/ac_selfie.png" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000"
+                height="1333" />
+        </header>
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-32 w3-content" id="portfolio">
+            <h2 class="w3-text-grey">My Work</h2>
+            <hr class="w3-opacity" />
+
+            <!-- Grid for photos -->
+            <div class="w3-row-padding" style="margin: 0 -16px">
+                <div class="w3-half">
+                    <img src="assets/landscape/baby_yoda_cut.png" style="width: 100%" />
+                    <img src="assets/landscape/black_glove_haircut_selfie.png" style="width: 100%" />
+                    <img src="assets/landscape/shape_up.png" style="width: 100%" />
+                </div>
+
+                <div class="w3-half">
+                        <img src="assets/landscape/bodmoon_pose_next_to_customer.png" style="width: 100%" />
+                        <img src="assets/portrait/taz_tat.png" style="width: 100%" />
+                        <img src="assets/landscape/nyc_shot.png" style="width: 100%" />
+                </div>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+            <h2>About</h2>
+            <hr class="w3-opacity" />
+            <p>
+                A hair stylist with a twist—I'm also a talented tattoo artist. I've combined my passions to offer a unique experience. From crafting stunning hairstyles to designing meaningful tattoos, I pour my heart into every project.
+
+My attention to detail is unmatched, whether I'm enhancing your features with a flawless haircut or creating a tattoo that tells your story. With a warm and friendly personality, I strive to create a comfortable environment where we can connect and bring your vision to life.
+
+If you're seeking a hair stylist and tattoo artist in one, your search ends here. Join me on a transformative journey where artistry meets self-expression. Let's make magic happen together!
+            </p>
+            <h3 class="w3-padding-16">My Skills</h3>
+            <p class="w3-wide">Hair Styling</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width: 95%">
+                    95%
+                </div>
+            </div>
+            <p class="w3-wide">Tattoo Design</p>
+            <div class="w3-light-grey">
+                <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width: 85%">
+                    85%
+                </div>
+            </div>
+        
+            <br />
+
+            <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">2</span><br />
+                    Partners
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">55+</span><br />
+                    Tattoos Done
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">89+</span><br />
+                    Happy Clients
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">150+</span><br />
+                    Meetings
+                </div>
+            </div>
+
+            <!-- Testimonials -->
+            <h3 class="w3-padding-24">My Reputation</h3>
+            <img src="assets/landscape/pexels-cottonbro-studio-9950569.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                style="width: 80px" />
+            <p>
+                <span class="w3-large w3-text-black w3-margin-right">Aurther Bing.</span>
+                
+            </p>
+            <p>Unmatched attention to detail and creativity. Highly recommend!</p>
+            <br />
+
+            <img src="assets/landscape/pexels-mikhail-nilov-6968548.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                style="width: 80px" />
+            <p>
+                <span class="w3-large w3-text-black w3-margin-right">Joseph Fox.</span>
+                
+            </p>
+            <p>A true hair styling magician. Trust me, you won't be disappointed!</p>
+            <br />
+
+            <img src="assets/landscape/pexels-spencer-selover-428328.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+                style="width: 80px" />
+            <p>
+                <span class="w3-large w3-text-black w3-margin-right">Mark Fang.</span>
+                
+            </p>
+            <p>Talented and professional tattoo artist. Look no further.</p>
+            <br />
+
+            <!-- Grid for pricing tables -->
+            <h3 class="w3-padding-16"></h3>
+            <div class="w3-row-padding" style="margin: 0 -16px">
+                <div class="w3-half w3-margin-bottom">
+                    <video width="100%" onmouseenter="VideoController(true, this)"
+                        onmouseleave="VideoController(false, this)" src="assets/portrait/anime_tat.mp4" loop <>
+                </div>
+
+                <div class="w3-half">
+                    <video width="100%" onmouseenter="VideoController(true, this)"
+                        onmouseleave="VideoController(false, this)" src="assets/portrait/barber and berbee singing.mp4"
+                        loop <>
+                </div>
+                <!-- End Grid/Pricing tables -->
+            </div>
+
+            <!-- End About Section -->
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom: 64px">
+            <h2>Contact Me</h2>
+            <hr class="w3-opacity" />
+
+            <div class="w3-section">
+                <p>
+                    <i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>
+                    New York | New Jersey
+                </p>
+                <p>
+                    <i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone:
+                    (484) 908-2644
+                </p>
+                <p>
+                    <i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i>
+                    Email: mail@mail.com
+                </p>
+            </div>
+
+            <!-- Image of location/map -->
+            <img src="assets/portrait/NJ_NY.jpg" class="w3-image" style="width: 100%; margin: 32px 0" />
+
+            <p>Lets get in touch. Send me a message:</p>
+            <form action="https://formsubmit.co/juniorberroa1234@gmail.com" target="_blank" method="POST">
+                <p>
+                    <input class="w3-input w3-padding-16 w3-border" type="text" placeholder=" Your Email" required
+                        name="Email" />
+                </p>
+                <p>
+                    <input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required
+                        name="Message" />
+                </p>
+                <p>
+                    <button style="border-radius: 1rem;" class="w3-button w3-light-grey w3-padding-large" onclick="submissonSuccess()" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+            <!-- End Contact Section -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin: -24px">
+            <a href="https://www.instagram.com/juniorberroart/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <p class="w3-medium">
+                Built by
+                <a href="https://www.linkedin.com/in/rivers-anthony/" target="_blank"
+                    class="w3-hover-text-green">hireriversanthony</a>
+            </p>
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+    <script>
+        // Open and close sidebar
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        const VideoController = function (isHovering, videoElement) {
+            if (isHovering == true) {
+                videoElement.play();
+            }
+
+            else if (isHovering == false) {
+                videoElement.pause();
+            }
+        }
+        
+        function submissonSuccess(){
+            alert("Your message has been sent!");
+        }
+
+    </script>
+</body>
+
+</html>
